@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   
+  get 'statics/index'
+
+  get 'statics/about'
+
   get 'peliculas/index'
 
   resources :peliculas
